@@ -1,7 +1,6 @@
 //202610302223
 //王诗喻
 
-
 #include <stdio.h>
 
 int main(void)
