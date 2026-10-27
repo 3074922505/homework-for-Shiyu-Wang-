@@ -1,0 +1,22 @@
+#include <stdio.h>
+//这只是一个注释
+int main(void) {
+    double num = 0.0;
+
+    printf("Enter a number: ");
+
+    if (scanf("%lf", &num) != 1) {
+        printf("Invalid input.\n");
+        return 1;
+    }
+
+    if (num > 0.0) {
+        printf("%g is positive.\n", num);
+    } else if (num < 0.0) {
+        printf("%g is negative.\n", num);
+    } else {
+        printf("%g is zero.\n", num);
+    }
+
+    return 0;
+}
